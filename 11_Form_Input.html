@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form method="post" action="/account/login" target="_blank">
+      <label for="first name">Adınız:</label>
+      <input type="text" name="first name" /><br />
+
+      <input type="number" name="Salary" /><br />
+      <input type="email" name="Email" /><br />
+      <label for="pasword">Enter password</label>
+      <input type="password" name="password" /><br />
+      <input type="search" name="search" /><br />
+      <input type="url" name="Website" /><br />
+      <input type="tel" name="phone" /><br />
+      <input type="hidden" name="code" /><br />
+
+      <input type="checkbox" name="user" id="user" />
+      <label for="user">Kullanıcı sözleşmesini okudum </label> <br />
+      <input type="checkbox" name="sales" id="sales" />
+      <label for="sales">Satış sözleşmesini okudum </label> <br />
+      <input type="radio" name="gender" id="genderF" />
+      <label for="genderF">Kadın</label>
+      <input type="radio" name="gender" id="genderM" checked />
+
+      <label for="genderM">Erkek</label><br />
+
+      <input type="file" name="avatar" />
+
+      <input type="color" name="renk" />
+
+      <input type="range" name="Salary" /><br />
+
+      <input type="date" name="tarih" /><br />
+
+      <input type="month" name="mn">
+
+      <input type="time" name="time"/>
+
+      <input type="week" name="wk">
+
+      <select name="iller" id="iller">
+        <option value="34">ist</option>
+        <option value="35">izm</option>
+        <option value="06">ank</option>
+        <option value="07">ayt</option>
+      </select><br>
+
+      <select name="country" size="5" multiple>
+        <option value="34">ger</option>
+        <option value="35">fra</option>
+        <option value="06">gbr</option>
+        <option value="07">tur</option>
+        <option value="07">gre</option>
+      </select><br>
+         <textarea name="" id="" cols="30" rows="10"></textarea><br>
+
+      <input type="button"  disabled selected value="Save" />
+      <input type="button" value="Custom" />
+      <input type="button" value="Reset" />
+    </form>
+  </body>
+</html>

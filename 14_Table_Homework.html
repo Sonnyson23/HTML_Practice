@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Homework</title>
+</head>
+<body>
+    <p><h4>Kayıt Formu</h4></p>
+    <table>
+        <tbody>
+            <tr>
+                <td><label for="user_n" id="adi">Adı</label></td>
+                <td><input type="text" name="user_n" id="adi"></td>
+                <td rowspan="3"> Hobiler</td>
+                <td><input type="checkbox" name="foot" id="user" />
+                    <label for="foot">Futbol </label></td>
+            </tr>
+            <tr>
+                <td><label for="user_ln" id="Soyadı">Soyadı</label></td>
+                <td><input type="text" name="user_ln" id="Soyadı"></td>
+                <td>
+                    <input type="checkbox" name="vol" id="user" />
+                    <label for="vol">Voleybol </label>
+                </td>
+             
+            </tr>
+            <tr>
+                <td><label for="Cinsiyet" id="adi">Cinsiyet</label></td>
+                <td>
+                    <input type="radio" name="gender" id="genderF" />
+                    <label for="genderF">Kadın</label>
+                    <input type="radio" name="gender" id="genderM" checked />     
+                    <label for="genderM">Erkek</label><br />
+                </td>
+                <td><input type="checkbox" name="basket" id="user" />
+                    <label for="basket">Basketbol </label>
+                </td>
+               
+            </tr>
+            <tr>
+                <td><label for="ilce" id="ilce">İlçe</label></td>
+                <td><select style="width: 170px;" name="ilce" id="ilce">
+                    <option value=""></option>
+                    <option value="">Bakırköy</option>
+                    <option value="">Üsküdar</option>
+                    <option value="">Beşiktaş</option>
+                </select</td>
+                <td><label for="profile" id="pic">Profil Fotoğrafı</label></td>
+                <td><input type="file" name="avatar" /></td>
+            </tr>
+            <tr>
+                <td><label for="Email" id="Eposta">Eposta</label></td>
+                <td><input type="email" name="Email" id="Eposta" /></td>
+                <td><label for="birth" id="br">Doğum Tarihi</label></td>
+                <td><input type="date" name="tarih" /></td>
+            </tr>
+            <tr>
+                <td><label for="Website" id="web">Kişisel Site</label></td>
+                <td><input type="url" name="Website" name="web" /><br /></td>
+                <td><label for="profile" id="pic">Adres</label></td>
+                <td rowspan="2"><textarea name="" id="" cols="25" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="phone" id="tel">Telefon</label></td>
+                <td><input type="tel" name="phone" name="tel" /></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><button type="submit" >Kayıt ol</button></td>
+            </tr>
+
+
+
+
+        </tbody>
+    </table>
+</body>
+</html>
